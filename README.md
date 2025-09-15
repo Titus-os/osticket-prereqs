@@ -36,7 +36,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Description: Enabling Internet Information Services (IIS) with CGI (Common Gateway Interface) is critical because osTicket, a web-based application, requires a web server to host its files and process dynamic content. CGI support is necessary for PHP to execute properly within IIS, allowing osTicket’s PHP-based scripts to run and serve the help desk interface.
+Enabling Internet Information Services (IIS) with CGI (Common Gateway Interface) is critical because osTicket, a web-based application, requires a web server to host its files and process dynamic content. CGI support is necessary for PHP to execute properly within IIS, allowing osTicket’s PHP-based scripts to run and serve the help desk interface.
 
 </p>
 <br />
@@ -45,7 +45,8 @@ Description: Enabling Internet Information Services (IIS) with CGI (Common Gatew
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Installing PHP (via the PHP 7.3.8 files into C:\PHP) and registering it in IIS using PHP Manager is essential because osTicket is built on PHP. Registering php-cgi.exe ensures IIS can process PHP scripts, enabling the core functionality of osTicket’s web interface and backend logic.
+
 </p>
 <br />
 
@@ -53,6 +54,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Enabling the PHP extensions (php_imap.dll, php_intl.dll, php_opcache.dll) in PHP Manager and completing the osTicket setup through the browser (configuring database and help desk settings) are crucial for enabling full functionality. These extensions support email integration, internationalization, and performance optimization, while the browser setup finalizes the database connection and initializes the help desk.
 </p>
 <br />
