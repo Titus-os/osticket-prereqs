@@ -52,7 +52,8 @@ Installing PHP (via the PHP 7.3.8 files into C:\PHP) and registering it in IIS u
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1163" height="653" alt="image" src="https://github.com/user-attachments/assets/ec5a0a95-fa92-4a0f-abfe-7f90633a985f" />
+
 </p>
 <p>
 Enabling the PHP extensions (php_imap.dll, php_intl.dll, php_opcache.dll) in PHP Manager and completing the osTicket setup through the browser (configuring database and help desk settings) are crucial for enabling full functionality. These extensions support email integration, internationalization, and performance optimization, while the browser setup finalizes the database connection and initializes the help desk.
