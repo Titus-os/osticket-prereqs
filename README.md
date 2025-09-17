@@ -43,6 +43,7 @@ Enabling Internet Information Services (IIS) with CGI (Common Gateway Interface)
 
 <p>
 <img width="1378" height="954" alt="image" src="https://github.com/user-attachments/assets/61d81cde-35de-4502-90a5-f898dcb6af11" />
+<img width="1450" height="757" alt="image" src="https://github.com/user-attachments/assets/4ac32222-e512-42a1-8936-bb4101aa6788" />
 </p>
 <p>
 Installing PHP (via the PHP 7.3.8 files into C:\PHP) and registering it in IIS using PHP Manager is essential because osTicket is built on PHP. Registering php-cgi.exe ensures IIS can process PHP scripts, enabling the core functionality of osTicket’s web interface and backend logic.
