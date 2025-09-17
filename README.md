@@ -33,9 +33,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img width="654" height="335" alt="image" src="https://github.com/user-attachments/assets/84c05aef-1b7c-4afb-a94b-f1f5ad88792a" />
-
+<img width="1345" height="852" alt="image" src="https://github.com/user-attachments/assets/8c1bef1f-724c-4f87-9b69-c41ed6870d13" />
 </p>
 <p>
 Enabling Internet Information Services (IIS) with CGI (Common Gateway Interface) is critical because osTicket, a web-based application, requires a web server to host its files and process dynamic content. CGI support is necessary for PHP to execute properly within IIS, allowing osTicket’s PHP-based scripts to run and serve the help desk interface.
